@@ -1,10 +1,11 @@
 public class Zapping {
 
-    private int clicks;
-    public int Canales(int CanalDestino, int CanalOrigen){
 
-        for(int i = 0; i < CanalDestino; clicks++ ){
+    public int Canales(int CanalOrigen, int CanalDestino){
+        int clicks = 0;
 
+        for(int i = CanalOrigen; i < CanalDestino; i++ ){
+             clicks+=1;
         }
 
         return clicks;
