@@ -37,5 +37,14 @@ class ZappingTest {
         assertEquals(41, canales);
     }
 
+    @Test
+    void canalReverse3(){
+        Zapping canal = new Zapping();
+        int canales = canal.Canales(63, 5);
+        assertEquals(41, canales);
+    }
+
+
+
 
 }
